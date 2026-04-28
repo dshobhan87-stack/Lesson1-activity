@@ -1,72 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>My Semantic Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-
-    <!-- Header -->
-    <header>
-        <h1>My Website</h1>
-        <p>Learning Semantic HTML</p>
-    </header>
-
-    <!-- Navigation -->
-    <nav>
-        <a href="#">Home</a> |
-        <a href="#">About</a> |
-        <a href="#">Contact</a>
-    </nav>
-
-    <!-- Main Content -->
-    <main>
-
-        <!-- Section -->
-        <section>
-            <h2>About This Page</h2>
-            <p>This page demonstrates semantic HTML elements with media.</p>
-        </section>
-
-        <!-- Article -->
-        <article>
-            <h2>Sample Image</h2>
-            <img src="beautiful-beach-free-image-after-sunset-sky-free-photo.jpeg" alt="Sample Image" width="100">
-        </article>
-
-        <!-- Audio Section -->
-        <section>
-            <h2>Audio Example</h2>
-            <audio controls>
-                <source src="file_example_MP3_700KB.mp3" type="audio/mpeg">
-                Your browser does not support audio.
-            </audio>
-        </section>
-
-        <!-- Video Section -->
-        <section>
-            <h2>Video Example</h2>
-            <video width="400" controls>
-                <source src="movie.mp4" type="video/mp4">
-                Your browser does not support video.
-            </video>
-        </section>
-
-    </main>
-
-    <!-- Aside -->
-    <aside>
-        <h3>Side Info</h3>
-        <p>This is additional information using aside tag.</p>
-    </aside>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 My Website</p>
-    </footer>
-
+    <h1>Student Details Form</h1>
+    <form>
+        <label>Name</label><br>
+        <input type="text" id="name"><br><br>
+        <label>Class</label><br>
+        <input type="text" id="email"><br><br>
+        <label>Contact Number (This will be hidden)</label><br>
+        <input type="password" id="contact"><br><br>
+        <label>Gender</label><br>
+        <input type="radio" id="female" name="gender" value="Female">Female<br>
+        <input type="radio" id="male" name="gender" value="Male">Male<br><br>
+        <label>Favourite Subject</label><br>
+        <input type="checkbox" id="city" value="New Delhi">MATHS<br>
+        <input type="checkbox" id="city" value="Mumbai">SCIENCE<br><br>
+        <input type="submit">
+    </form>
 </body>
 
 </html>
