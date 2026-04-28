@@ -9,21 +9,21 @@
 </head>
 
 <body>
-    <h1>Student Details Form</h1>
     <form>
-        <label>Name</label><br>
-        <input type="text" id="name"><br><br>
-        <label>Class</label><br>
-        <input type="text" id="email"><br><br>
-        <label>Contact Number (This will be hidden)</label><br>
-        <input type="password" id="contact"><br><br>
-        <label>Gender</label><br>
-        <input type="radio" id="female" name="gender" value="Female">Female<br>
-        <input type="radio" id="male" name="gender" value="Male">Male<br><br>
-        <label>Favourite Subject</label><br>
-        <input type="checkbox" id="city" value="New Delhi">MATHS<br>
-        <input type="checkbox" id="city" value="Mumbai">SCIENCE<br><br>
-        <input type="submit">
+        <fieldset>
+            <!-- The fieldset tag is used to group related elements in a form and draws a box around them-->
+            <legend>Student Information:</legend>
+            <label>Full name:</label>
+            <!--placeholder attribute can be used to provide extra information about entry to be made-->
+            <input type="text" id="fname" placeholder="Enter Name"><br><br>
+            <label>Email:</label>
+            <input type="text" id="email"><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="gender" value="female">Female<br>
+            <input type="radio" id="gender" value="male">Male<br><br>
+            <label>Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+        </fieldset>
     </form>
 </body>
 
